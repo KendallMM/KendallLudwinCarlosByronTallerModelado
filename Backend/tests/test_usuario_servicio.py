@@ -94,10 +94,10 @@ def test_Test1RegistrarUsuario():
         token_publico=None
     )
     assert 'mensaje' in resultado
-    assert resultado['mensaje'] == 'Usuario registrado exitosamente'
+    #assert resultado['mensaje'] == 'Usuario registrado exitosamente'
 
     # Prueba de test fallida intencionalmente para demostrar el funcionamiento del test
-    #assert resultado['mensaje'] == 'Registro fallido' 
+    assert resultado['mensaje'] == 'Registro fallido' 
 
 # 2. Registro fallido por contraseña débil.
 def test_Test2RegistrarUsuario():
