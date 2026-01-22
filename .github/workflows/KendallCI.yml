@@ -7,7 +7,9 @@ on:
   pull_request:
     branches:
       - "KendallPruebasUnitarias"
-
+defaults:
+  run:
+    working-directory: KendallLudwinCarlosByronTallerModelado/Mobile/Intellihome
 jobs:
   build:
     name: Build Project
