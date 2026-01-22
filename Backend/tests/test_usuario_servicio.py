@@ -71,7 +71,7 @@ class DummyDBLogin_UsuarioInexistente():
 # 1. Login exitoso con credenciales válidas.
 def test_Test1LoginUsuario():
     db = DummyDBLogin_UsuarioExistente()
-    resultado = Usuario_Servicio.login_usuario(db, "ludwinr", "ludwin123")
+    resultado = Usuario_Servicio.login_usuario(db, "ludwin", "ludwin123")
     assert "username" in resultado
     assert resultado["username"] == "ludwinr"
 
