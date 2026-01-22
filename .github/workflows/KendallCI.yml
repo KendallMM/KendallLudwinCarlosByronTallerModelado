@@ -9,7 +9,7 @@ on:
       - "KendallPruebasUnitarias"
 defaults:
   run:
-    working-directory: KendallLudwinCarlosByronTallerModelado/Mobile/Intellihome
+    working-directory: Mobile/Intellihome
 jobs:
   build:
     name: Build Project
