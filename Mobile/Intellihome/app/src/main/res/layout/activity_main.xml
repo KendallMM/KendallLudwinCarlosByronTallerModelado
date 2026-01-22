@@ -98,7 +98,7 @@
             android:textColor="@android:color/white"
             app:backgroundTint="@color/design_default_color_error"
             app:cornerRadius="12dp"
-            app:icon="@drawable/outline_arrow_menu_close_24"
+            app:icon="@drawable/ic_user_placeholder"
             app:iconTint="@android:color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
