@@ -37,7 +37,7 @@ class UnitTesting {
     fun Test1LoginUsuario() = runTest {
         val mockUser = LoginResponseDto(
             id = 1,
-            username = "pato",
+            username = "patos",
             correo = "pato@email.com",
             telefono = "8888-8888",
             nombre = "Patricio",
