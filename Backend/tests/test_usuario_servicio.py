@@ -59,6 +59,7 @@ class DummyDBLogin_UsuarioInexistente():
                 return None  # Simula que no se encontró el usuario
         return DummyQuery()
 
+    # Métodos simulados de la base de datos (dummy)
     def commit(self):
         self.committed = True
     def rollback(self):
@@ -89,7 +90,7 @@ def test_Test3LoginUsuario():
     assert "identificador" in resultado["errores"]
 
 
-#----------------- Pruebas unitarias para el método restablecer_contrasena ------------------
+#----------------- Pruebas unitarias para el método restablecer_contraseña ------------------
 
 # Bases de datos dummy
 class DummyUsuario_Restablecer:
@@ -118,6 +119,7 @@ class DummyDBRestablecer():
                 return DummyUsuario_Restablecer()
         return DummyQuery()
 
+    # Métodos simulados de la base de datos (dummy)
     def commit(self):
         self.committed = True
     def rollback(self):
