@@ -20,7 +20,7 @@ class RegisterValidatorTest {
         datosValidos = DatosFormularioRegistro(
             username = "usuario123",
             password = "password123",
-            confirmPassword = "password123",
+            confirmPassword = "password456", // password123
             nombre = "Juan",
             apellidos = "Pérez",
             correo = "juan@example.com",
