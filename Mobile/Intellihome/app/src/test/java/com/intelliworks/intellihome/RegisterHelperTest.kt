@@ -66,7 +66,7 @@ class RegisterHelperTest {
         every { mockContentResolver.getType(mockUri) } returns "image/png"
 
         // Configurar mock para tamaño dentro del límite (500KB < 1MB)
-        val tamanioValido = 2 * 1024 * 1024 // 500 * 1024
+        val tamanioValido = 500 * 1024 // 500 * 1024
         val inputStream = ByteArrayInputStream(ByteArray(tamanioValido))
         every { mockContentResolver.openInputStream(mockUri) } returns inputStream
 
